@@ -7,7 +7,9 @@ export function Hero() {
     <section className="dot-grid -mt-[var(--nav-height)] border-b border-line pt-[var(--nav-height)]">
       <div className="site-container grid grid-cols-1 items-center gap-12 py-14 sm:py-20 lg:grid-cols-12 lg:gap-10 lg:py-24">
         <div className="lg:col-span-6">
-          <p className="eyebrow mb-5">{site.name}</p>
+          <p className="mb-5 font-display text-company font-semibold text-accent-text">
+            {site.name}
+          </p>
           <h1 className="text-display">
             <span className="block">AI that does real work.</span>
             <span className="block">Software you own.</span>

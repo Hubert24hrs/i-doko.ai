@@ -29,6 +29,7 @@
   --step-h2: clamp(1.75rem, 1.4rem + 1.6vw, 2.75rem);
   --step-h3: clamp(1.1875rem, 1.1rem + 0.4vw, 1.4375rem);
   --step-lead: clamp(1.0625rem, 1rem + 0.3vw, 1.25rem);
+  --step-company: clamp(1.5rem, 1.3rem + 1vw, 2rem);
 
   --radius-sm: 6px;
   --radius-md: 10px;

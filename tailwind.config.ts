@@ -38,6 +38,7 @@ const config: Config = {
         h2: ["var(--step-h2)", { lineHeight: "1.1", letterSpacing: "-0.025em" }],
         h3: ["var(--step-h3)", { lineHeight: "1.25", letterSpacing: "-0.015em" }],
         lead: ["var(--step-lead)", { lineHeight: "1.6" }],
+        company: ["var(--step-company)", { lineHeight: "1.2", letterSpacing: "-0.02em" }],
         label: ["0.75rem", { lineHeight: "1.3", letterSpacing: "0.06em" }],
       },
       borderRadius: {
