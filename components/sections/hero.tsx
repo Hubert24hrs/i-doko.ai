@@ -11,8 +11,8 @@ export function Hero() {
             {site.name}
           </p>
           <h1 className="text-display">
-            <span className="block">AI that does real work.</span>
-            <span className="block">Software you own.</span>
+            <span className="block">Our team&apos;s best work.</span>
+            <span className="block">Software and AI you own.</span>
           </h1>
           <p className="mt-6 max-w-xl text-lead text-muted">
             We design and build custom SaaS, AI agents and automation for corporations and

@@ -24,8 +24,8 @@ export default function OpengraphImage() {
       </div>
       <div style={{ display: "flex", flexDirection: "column" }}>
         <div style={{ display: "flex", flexDirection: "column", fontSize: 76, fontWeight: 600 }}>
-          <span>AI that does real work.</span>
-          <span>Software you own.</span>
+          <span>Our team&apos;s best work.</span>
+          <span>Software and AI you own.</span>
         </div>
         <div style={{ display: "flex", marginTop: 28, fontSize: 32, color: "#a2a9b5" }}>
           {site.name}

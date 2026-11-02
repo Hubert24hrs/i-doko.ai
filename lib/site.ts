@@ -26,7 +26,7 @@ export const site: SiteConfig = {
   // Legal pages and the footer switch to legalName automatically.
   legalName: null,
   registrationNumber: null,
-  tagline: "AI that does real work. Software you own.",
+  tagline: "Our team's best work. Software and AI you own.",
   description:
     "i-doko ai Technologies designs and builds custom SaaS, AI agents and automation for corporations and organisations, then hands over the code and documentation.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://i-doko.ai",
