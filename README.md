@@ -37,6 +37,7 @@ All are listed in `.env.example`. Never commit real values.
 | `CONTACT_FROM_EMAIL`           | Contact form         | Must be on a domain verified in Resend            |
 | `NEXT_PUBLIC_BOOKING_URL`      | Booking embed        | Optional. A full `cal.com` or `calendly.com` URL  |
 | `NEXT_PUBLIC_PLAUSIBLE_DOMAIN` | Analytics            | Optional. Analytics stays off while this is empty |
+| `SITE_LAUNCHED`                | Search indexing      | Set to `true` at launch, then redeploy            |
 
 In production, the contact form returns an error until the three email variables are set.
 
@@ -45,6 +46,8 @@ In production, the contact form returns an error until the three email variables
 1. Import this GitHub repository into Vercel. It detects Next.js automatically.
 2. Add the environment variables under Project Settings.
 3. Deploy, then connect the domain under Project Settings, Domains.
+
+Every page tells search engines not to index it until launch. When you're ready to appear in search, set `SITE_LAUNCHED` to `true` in Vercel and redeploy.
 
 ## Update the content
 

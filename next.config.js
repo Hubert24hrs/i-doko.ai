@@ -27,12 +27,17 @@ const securityHeaders = [
   { key: "Strict-Transport-Security", value: "max-age=63072000; includeSubDomains; preload" },
 ];
 
+// A noindex header rather than a robots.txt block, because crawlers must be
+// able to fetch a page to see the instruction.
+const indexingHeaders =
+  process.env.SITE_LAUNCHED === "true" ? [] : [{ key: "X-Robots-Tag", value: "noindex, nofollow" }];
+
 const nextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
   turbopack: { root: __dirname },
   async headers() {
-    return [{ source: "/:path*", headers: securityHeaders }];
+    return [{ source: "/:path*", headers: [...securityHeaders, ...indexingHeaders] }];
   },
 };
 
