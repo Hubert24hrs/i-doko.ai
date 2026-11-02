@@ -150,7 +150,7 @@ export const agentFlow = [
 
 export const faqs = [
   {
-    question: "What does i-doko.ai build?",
+    question: "What does i-doko ai Technologies build?",
     answer:
       "Custom SaaS, AI agents, AI automation, mobile apps and websites, for corporations, organisations, brands and individuals.",
   },

@@ -7,7 +7,7 @@ import { values } from "@/content/company";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "i-doko.ai is a Nigerian technology company building software and AI for clients globally.",
+    "i-doko ai Technologies is a Nigerian technology company building software and AI for clients globally.",
   alternates: { canonical: "/about" },
 };
 
@@ -17,7 +17,7 @@ export default function AboutPage() {
       <PageHeader
         eyebrow="About"
         title="Local roots, global standard"
-        lead="We're a technology company based in Nigeria, building software and AI for clients globally."
+        lead="i-doko ai Technologies is a technology company based in Nigeria, building software and AI for clients globally."
       />
 
       <section className="py-section">

@@ -22,9 +22,14 @@ export default function OpengraphImage() {
       <div style={{ display: "flex", fontSize: 36, fontWeight: 600 }}>
         i-doko<span style={{ color: "#f0a63a" }}>.</span>ai
       </div>
-      <div style={{ display: "flex", flexDirection: "column", fontSize: 76, fontWeight: 600 }}>
-        <span>AI that does real work.</span>
-        <span>Software you own.</span>
+      <div style={{ display: "flex", flexDirection: "column" }}>
+        <div style={{ display: "flex", flexDirection: "column", fontSize: 76, fontWeight: 600 }}>
+          <span>AI that does real work.</span>
+          <span>Software you own.</span>
+        </div>
+        <div style={{ display: "flex", marginTop: 28, fontSize: 32, color: "#a2a9b5" }}>
+          {site.name}
+        </div>
       </div>
     </div>,
     size,

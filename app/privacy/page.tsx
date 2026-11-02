@@ -4,7 +4,7 @@ import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "How i-doko.ai collects and uses personal data.",
+  description: "How i-doko ai Technologies collects and uses personal data.",
   alternates: { canonical: "/privacy" },
 };
 

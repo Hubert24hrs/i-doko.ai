@@ -51,7 +51,8 @@ export function Footer() {
           <Link href="/" aria-label="i-doko.ai home" className="inline-block text-ink">
             <Wordmark className="h-6" />
           </Link>
-          <p className="mt-4 max-w-xs text-sm text-muted">{site.tagline}</p>
+          <p className="mt-4 text-sm font-medium">{owner}</p>
+          <p className="mt-1 max-w-xs text-sm text-muted">{site.tagline}</p>
           {features.newsletter ? <NewsletterForm /> : null}
         </div>
         <div className="md:col-span-3">

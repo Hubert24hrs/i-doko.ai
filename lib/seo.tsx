@@ -18,6 +18,7 @@ export function organizationJsonLd() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: site.name,
+    alternateName: site.brand,
     ...(site.legalName ? { legalName: site.legalName } : {}),
     url: site.url,
     description: site.description,

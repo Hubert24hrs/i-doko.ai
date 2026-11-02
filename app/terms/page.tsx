@@ -4,7 +4,7 @@ import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
-  description: "The terms for using the i-doko.ai website.",
+  description: "The terms for using the i-doko ai Technologies website.",
   alternates: { canonical: "/terms" },
 };
 

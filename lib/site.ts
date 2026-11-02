@@ -2,6 +2,7 @@ export type SocialLink = { label: string; href: string };
 
 type SiteConfig = {
   name: string;
+  brand: string;
   legalName: string | null;
   registrationNumber: string | null;
   tagline: string;
@@ -19,13 +20,15 @@ type SiteConfig = {
 };
 
 export const site: SiteConfig = {
-  name: "i-doko.ai",
-  // TODO: set both when confirmed. The site shows neither while they're empty.
+  name: "i-doko ai Technologies",
+  brand: "i-doko.ai",
+  // TODO: set both when the registration is issued, using the exact registered name.
+  // Legal pages and the footer switch to legalName automatically.
   legalName: null,
   registrationNumber: null,
   tagline: "AI that does real work. Software you own.",
   description:
-    "i-doko.ai designs and builds custom SaaS, AI agents and automation for corporations and organisations, then hands over the code and documentation.",
+    "i-doko ai Technologies designs and builds custom SaaS, AI agents and automation for corporations and organisations, then hands over the code and documentation.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://i-doko.ai",
   base: "Nigeria",
   // TODO: add official contact details. Empty fields stay hidden across the site.

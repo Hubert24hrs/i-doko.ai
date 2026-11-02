@@ -9,7 +9,7 @@ import { getService } from "@/content/services";
 export const metadata: Metadata = {
   title: "Solutions",
   description:
-    "How i-doko.ai works with corporations, organisations, brands and individuals on software and AI.",
+    "How i-doko ai Technologies works with corporations, organisations, brands and individuals on software and AI.",
   alternates: { canonical: "/solutions" },
 };
 

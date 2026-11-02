@@ -7,7 +7,7 @@ import { features } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Insights",
-  description: "Writing from i-doko.ai on software and AI.",
+  description: "Writing from i-doko ai Technologies on software and AI.",
   alternates: { canonical: "/insights" },
 };
 
