@@ -137,7 +137,7 @@ export function Navbar() {
                   <div className="col-span-3">
                     <p className="eyebrow">Services</p>
                     <p className="mt-3 text-sm text-muted">
-                      Four things we build, led by SaaS and AI.
+                      Five things we build, led by SaaS and AI.
                     </p>
                     <Link
                       href="/services"

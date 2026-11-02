@@ -2,6 +2,7 @@ import type { ServiceSlug } from "./services";
 
 export const capabilities = [
   "Web applications",
+  "Mobile apps",
   "Agent design",
   "Workflow automation",
   "System integration",
@@ -31,8 +32,8 @@ export const audiences: Audience[] = [
       "Procurement needs clear scope and terms",
     ],
     offer:
-      "Custom SaaS, AI agents and automation on fixed-price or retainer terms, with a full handover.",
-    services: ["custom-saas", "ai-agents", "ai-automation"],
+      "Custom SaaS, AI agents, automation and mobile apps on fixed-price or retainer terms, with a full handover.",
+    services: ["custom-saas", "ai-agents", "ai-automation", "mobile-apps"],
   },
   {
     name: "Organisations",
@@ -49,15 +50,15 @@ export const audiences: Audience[] = [
     name: "Brands",
     summary: "Growing consumer and service businesses.",
     pains: ["The site doesn't turn visitors into enquiries", "Customers wait too long for a reply"],
-    offer: "Websites and customer-facing AI agents.",
-    services: ["websites", "ai-agents"],
+    offer: "Websites, mobile apps and customer-facing AI agents.",
+    services: ["websites", "mobile-apps", "ai-agents"],
   },
   {
     name: "Individuals",
     summary: "Founders and professionals with an idea to build.",
     pains: ["The idea is clear, but there's no technical team"],
-    offer: "SaaS builds and websites, with code you own from the start.",
-    services: ["custom-saas", "websites"],
+    offer: "SaaS builds, mobile apps and websites, with code you own from the start.",
+    services: ["custom-saas", "mobile-apps", "websites"],
   },
 ];
 
@@ -151,7 +152,7 @@ export const faqs = [
   {
     question: "What does i-doko.ai build?",
     answer:
-      "Custom SaaS, AI agents, AI automation and websites, for corporations, organisations, brands and individuals.",
+      "Custom SaaS, AI agents, AI automation, mobile apps and websites, for corporations, organisations, brands and individuals.",
   },
   {
     question: "Who owns the code?",

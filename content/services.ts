@@ -1,4 +1,5 @@
-export type ServiceSlug = "custom-saas" | "ai-agents" | "ai-automation" | "websites";
+export type ServiceSlug =
+  "custom-saas" | "ai-agents" | "ai-automation" | "mobile-apps" | "websites";
 
 export type Service = {
   slug: ServiceSlug;
@@ -148,6 +149,52 @@ export const services: Service[] = [
       "A process map of what was automated",
       "Alerts for failed runs",
       "Documentation your team can maintain",
+    ],
+  },
+  {
+    slug: "mobile-apps",
+    name: "Mobile apps",
+    navBlurb: "iOS and Android apps for your customers or your team.",
+    headline: "Mobile apps built for daily use",
+    summary:
+      "We design and build iOS and Android apps for your customers or your team, then hand over the code.",
+    builds: [
+      {
+        title: "Customer apps",
+        detail: "Accounts, orders, payments and the everyday tasks your customers need.",
+      },
+      {
+        title: "Staff and field apps",
+        detail: "Tools for teams away from a desk, built to cope with poor connections.",
+      },
+      {
+        title: "Companion apps",
+        detail: "A mobile version of your existing SaaS or internal system, on the same data.",
+      },
+      {
+        title: "AI features in the app",
+        detail: "Agents and assistants inside the app, with people approving what matters.",
+      },
+    ],
+    approach: [
+      {
+        title: "Both platforms from the start",
+        detail: "We plan for iOS and Android together, so features stay consistent.",
+      },
+      {
+        title: "Tested on real devices",
+        detail: "We check the app on the kinds of phones your users actually have.",
+      },
+      {
+        title: "Release is part of the job",
+        detail: "We prepare the store listings and take the app through review.",
+      },
+    ],
+    receive: [
+      "Source code in a repository you control",
+      "Apps published under your own store accounts",
+      "Technical documentation",
+      "A handover session with your team",
     ],
   },
   {

@@ -10,7 +10,7 @@ import { services } from "@/content/services";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Custom SaaS, AI agents, AI automation and websites, built by engineers and handed over with the code and documentation.",
+    "Custom SaaS, AI agents, AI automation, mobile apps and websites, built by engineers and handed over with the code and documentation.",
   alternates: { canonical: "/services" },
 };
 

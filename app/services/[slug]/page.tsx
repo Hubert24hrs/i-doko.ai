@@ -105,7 +105,7 @@ export default async function ServicePage({ params }: Props) {
       <section className="py-section">
         <div className="site-container">
           <p className="eyebrow">Other services</p>
-          <ul className="mt-6 grid gap-4 md:grid-cols-3">
+          <ul className="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
             {others.map((other) => (
               <li key={other.slug}>
                 <Link

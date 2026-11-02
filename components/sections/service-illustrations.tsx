@@ -86,6 +86,24 @@ function AutomationIllustration() {
   );
 }
 
+function MobileIllustration() {
+  return (
+    <div
+      aria-hidden
+      className="mx-auto h-40 w-36 overflow-hidden rounded-t-2xl border border-b-0 border-line-strong bg-bg p-2.5"
+    >
+      <div className="mx-auto h-1 w-8 rounded-full bg-surface-2" />
+      <div className="mt-3 h-2 w-14 rounded-sm bg-accent" />
+      <div className="mt-3 h-12 rounded-md bg-surface-2" />
+      <div className="mt-2.5 space-y-2">
+        <div className="h-2 w-full rounded-sm bg-surface-2" />
+        <div className="h-2 w-5/6 rounded-sm bg-surface-2" />
+        <div className="h-2 w-3/4 rounded-sm bg-surface-2" />
+      </div>
+    </div>
+  );
+}
+
 function WebsiteIllustration() {
   return (
     <div aria-hidden className="rounded-md border border-line bg-bg p-3">
@@ -112,6 +130,8 @@ export function ServiceIllustration({ slug }: { slug: ServiceSlug }) {
       return <AgentsIllustration />;
     case "ai-automation":
       return <AutomationIllustration />;
+    case "mobile-apps":
+      return <MobileIllustration />;
     case "websites":
       return <WebsiteIllustration />;
   }

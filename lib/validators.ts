@@ -4,6 +4,7 @@ export const serviceOptions = [
   "Custom SaaS",
   "AI agents",
   "AI automation",
+  "Mobile app",
   "Website",
   "White-label or partnership",
   "Not sure yet",

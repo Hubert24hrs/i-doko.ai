@@ -1,10 +1,11 @@
-import { Layers, PanelTop, Waypoints, Workflow, type LucideProps } from "lucide-react";
+import { Layers, PanelTop, Smartphone, Waypoints, Workflow, type LucideProps } from "lucide-react";
 import type { ServiceSlug } from "@/content/services";
 
 const icons = {
   "custom-saas": Layers,
   "ai-agents": Waypoints,
   "ai-automation": Workflow,
+  "mobile-apps": Smartphone,
   websites: PanelTop,
 } satisfies Record<ServiceSlug, unknown>;
 

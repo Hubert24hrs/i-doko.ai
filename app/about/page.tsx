@@ -36,9 +36,9 @@ export default function AboutPage() {
               to start.
             </p>
             <p className="text-muted">
-              Today we build SaaS, AI agents, automation and websites. We work the same way on every
-              project: agree the scope, build it properly, and hand over everything you need to own
-              it.
+              Today we build SaaS, AI agents, automation, mobile apps and websites. We work the same
+              way on every project: agree the scope, build it properly, and hand over everything you
+              need to own it.
             </p>
           </div>
         </div>
